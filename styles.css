@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5rem;
+}
+.img{
+    background: url(image-1.jpg);
+    height: 400px;
+    width: 100%;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.atlassian{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5rem;
+    margin: 2rem 0;
+}
+.img-area{
+    margin-left: 6rem;
+    margin-top: 4.5rem;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardions-1{
+    height: 350px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(154, 173, 169);
+    margin-bottom: rem;
+    margin-top: 3rem;
+}
+.cardions-1 img{
+   margin-left: -.7rem;
+   border-radius: 8px;
+}
+.question-section{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: fit-content;
+    background: rgb(255, 255, 255);
+    padding: 10px 40px;
+    margin-bottom: 1rem;
+}
+.Profile-area img{
+    border-radius: 50%;
+}
+.get-in-taugh{
+    background: rgba(0, 0, 255, 0.826);
+}
+.these-icons{
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    background: blue;
+    margin-top: 2rem;
+}
+.links-area a{
+    display: flex;
+    width: fit-content;
+    justify-content: flex-start;
+    align-self: start;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    &:hover{
+        color: rgba(21, 21, 242, 0.754);
+        transition: 1s ease;
+    }
+}
+
+@media (max-width:768px) {
+    .links-area h4{
+        color: black;
+        font-weight: 666;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
